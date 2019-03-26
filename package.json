@@ -1,33 +1,44 @@
 {
   "name": "es6",
   "version": "1.0.1",
-  "description": "Learn ECMAScript 6",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JasonChy/ES6.git"
-  },
-  "author": "JasonChi",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JasonChy/ES6/issues"
-  },
-  "homepage": "https://github.com/JasonChy/ES6#readme",
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-register": "^6.26.0",
+    "connect-livereload": "^0.6.0",
+    "cookie-parser": "^1.4.4",
+    "del": "^2.2.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-if": "^2.0.2",
-    "gulp-livereload": "^4.0.1",
-    "gulp-plumber": "^1.2.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-uglify": "^3.0.2",
+    "gulp-live-server": "0.0.30",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^2.1.0",
     "gulp-util": "^3.0.8",
+    "jquery": "^3.2.1",
+    "mockjs": "^1.0.1-beta3",
+    "morgan": "^1.9.1",
+    "require-dir": "^0.3.1",
+    "serve-favicon": "^2.5.0",
     "vinyl-named": "^1.1.0",
-    "webpack": "^4.29.6",
-    "webpack-stream": "^5.2.1",
-    "yargs": "^13.2.2"
+    "webpack": "^2.2.1",
+    "webpack-stream": "^3.2.0",
+    "yargs": "^7.0.2"
   }
 }
